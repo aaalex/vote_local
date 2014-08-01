@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rep:</strong>
+  <%= @position.rep_id %>
+</p>
+
+<p>
+  <strong>Avail for election:</strong>
+  <%= @position.avail_for_election %>
+</p>
+
+<%= link_to 'Edit', edit_position_path(@position) %> |
+<%= link_to 'Back', positions_path %>
