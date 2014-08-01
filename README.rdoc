@@ -1,3 +1,22 @@
+users will find their current representatives
+  - add columns to positions (term length, start date, end date, election_id instead of avail_for_election?)
+  - will i have to include today's date?
+users will find all the districts they belong to
+  - by national, state, ward, lsc...?
+  - users will have many districts, districts will have many users (many to many)
+  - District.user_id
+users will find all the elections in their districts
+users will find the next election in their district
+  - .order("date DESC")
+
+make column names unique, e.g. "email"
+edit data type
+add devise
+  - take out password
+add bootstrap
+add navbar
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
